@@ -6,6 +6,10 @@ Hello, I'm Damian Gillessen, and currently, I work in a casino. However, my pass
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
+## Site Structure
+
+- **Favicon:** A unique favicon has been added to enhance the visual identity of the portfolio.
+
 ## Features 
 
 ### Existing Features
