@@ -1,4 +1,8 @@
+# Damian Gillessen's Portfolio and Resume
+
 ## Intro
+
+Hello, I'm Damian Gillessen, and currently, I work in a casino. However, my passion for technology and programming has led me to embark on a journey to become a computer programmer. I am actively participating in and completing courses to acquire the necessary skills and knowledge for this transition. It is my hope that this portfolio and resume will showcase my progress, projects, and skills as I work towards my goal of becoming a proficient computer programmer.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
@@ -27,11 +31,13 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
+The Favicon used for this site was retrieved from iconos8.es:
+<a target="_blank" href="https://icons8.com/icon/kvqTlMRogUYm/cuenta-de-prueba">Cuenta de Prueba</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the Home page was written by me and is a history of my professional work experience and education
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
