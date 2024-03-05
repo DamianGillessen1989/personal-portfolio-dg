@@ -26,6 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -41,14 +44,13 @@ h1 {
 }
 
 #menu {
-    list-style: none;
-    font-size: 1.1em; 
-    letter-spacing: 2px; 
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
 
-#menu li {
-    display: inline;
-    margin-right: 15px;
+#menu > li {
+    margin-bottom: 1em;
 }
 
 .active {
@@ -67,11 +69,25 @@ nav {
     top: 100%;
 }
 
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display:block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 3rem;
+}
+
 /* Main content */
 main {
     background-color: #526D82;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
