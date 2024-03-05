@@ -28,8 +28,27 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #27374D;
+}
+
+#menu {
+    list-style: none;
+    font-size: 1.1em; 
+    letter-spacing: 2px; 
+}
+
+#menu li {
+    display: inline;
+    margin-right: 15px;
 }
 
 /* Main content */
