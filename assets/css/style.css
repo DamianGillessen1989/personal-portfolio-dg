@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #cccccc;
+    color: #3a3a3a;
     font-family: "Raleway", sans-serif;
 }
 
@@ -49,6 +49,22 @@ h1 {
 #menu li {
     display: inline;
     margin-right: 15px;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #DDE6ED;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
 }
 
 /* Main content */
