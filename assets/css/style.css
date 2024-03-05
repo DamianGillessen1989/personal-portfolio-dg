@@ -23,6 +23,10 @@ header {
     background-color: #1565c0;
 }
 
+h1 {
+    font-family: "Open Sans", sans-serif;
+}
+
 /* Main content */
 main {
     background-color: #292f3a;
