@@ -116,6 +116,33 @@ main {
     color: #1e3050;
 }
 
+/* Why me section */
+#why-me {
+    width: 90%;
+    margin: 20px auto;
+    color: #ffffff
+}
+
+#why-me h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#brand-potential > div, #creative-connection > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#why-me-div p {
+    padding: 0 20px;
+}
+
+#why-me-div hr {
+    border-top: 1px solid #ffffff;
+    margin: 5px 0;
+}
+
 /* Footer */
 footer {
     background-color: #27374D;
