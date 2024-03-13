@@ -218,6 +218,24 @@ footer {
         right: 50px;
     }
 
+    /* Why me section */
+    #brand-potential,
+    #creative-connection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #brand-potential > div,
+    #creative-connection > div {
+        width: 75%;
+    }
+
+    #creative-connection > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+ 
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -225,3 +243,32 @@ footer {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+}
+
+@media screen and (min-width: 1200px) {    
+    /* Why me section */
+    #why-me {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #why-me > div {
+        flex: 1;
+    }
+
+    #why-me-image {
+        order: 0
+    }
+
+    #creative-connection {
+        order: 1;
+    }
+
+    #creative-connection > div {
+        align-self: flex-start;
+    }
+
+    #brand-potential > div {
+        align-self: flex-end;
+    }
+}
