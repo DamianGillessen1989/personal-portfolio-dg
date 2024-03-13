@@ -25,8 +25,6 @@ h1, h2, h3 {
     color: #1e3050;
 }
 
-
-
 /* Header */
 header {
     background-color: #DDE6ED ;
@@ -141,6 +139,23 @@ main {
 #why-me-div hr {
     border-top: 1px solid #ffffff;
     margin: 5px 0;
+}
+
+#circle-cover-bg {
+    background: url('../images/dgpersonalportfolimage2.webp') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#why-me-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
