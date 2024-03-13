@@ -71,7 +71,7 @@ nav {
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-    display:block;
+    display: block;
 }
 
 #nav-toggle {
@@ -247,12 +247,12 @@ footer {
 
 @media screen and (min-width: 1200px) {    
     /* Why me section */
-    #why-me {
+    #why-me-div {
         display: flex;
         flex-direction: row;
     }
 
-    #why-me > div {
+    #why-me-div > div {
         flex: 1;
     }
 
