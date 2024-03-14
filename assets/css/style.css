@@ -260,6 +260,9 @@ main {
 
 .radio-buttons {
     width: 100%;
+    display: flex;
+    line-height: 1.5;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -380,15 +383,18 @@ footer {
 
     .text-input:hover {
         border-color: #00D8FF;
+        cursor: pointer; /* Pointer/hand icon */
     }
 
     .message-field:hover {
         border-color: #00D8FF;
+        cursor: pointer; /* Pointer/hand icon */
     }
 
     .join-button:hover {
         background-color: #35516F;
         color: #45b1b;
+        cursor: pointer; /* Pointer/hand icon */
     }
 }
 
