@@ -92,6 +92,9 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -114,7 +117,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text > h2,
+#cover-text > h3 {
     color: #1e3050;
 }
 
@@ -131,7 +135,8 @@ main {
     font-size: 280%;
 }
 
-#brand-potential > div, #creative-connection > div {
+#brand-potential > div,
+#creative-connection > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -196,6 +201,76 @@ main {
 
 #photos {
     line-height: 0;
+}
+
+/* Form */
+#contact-me {
+    background-image: url("../images/dgpersonalportfoliocontact.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contact-form {
+    color: #1e3050;
+    background-color: rgba(255, 255, 255, .4);
+    font-weight: bold;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form > h2 {
+    color: #1e3050;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #1e3050;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #1e3050;
+    border-radius: 2px;
+    padding: 0 5px;
+    width: 300px;
+    transition: background-color 0.3s ease;
+}
+
+/* Apply white background when input is focused */
+.text-input:focus {
+    background-color: #ffffff;
+}
+
+.message-field {
+    background: transparent;
+    color: #1e3050;
+    border: 2px solid #1e3050;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+/* Apply white background when input is focused */
+.message-field:focus {
+    background-color: #ffffff;
+}
+
+.radio-buttons {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    border-color: #39546d;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #1e3050;
+    color: #fafafa;
 }
 
 /* Footer */
@@ -288,6 +363,32 @@ footer {
     #photos {
         column-count: 3;
         column-gap: 0;
+    }
+
+    /* Contact Form */
+    #contact-me {
+        background-position: center;
+        position: relative;
+    }
+
+    #contact-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #00D8FF;
+    }
+
+    .message-field:hover {
+        border-color: #00D8FF;
+    }
+
+    .join-button:hover {
+        background-color: #35516F;
+        color: #45b1b;
     }
 }
 

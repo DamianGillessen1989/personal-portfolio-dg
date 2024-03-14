@@ -43,7 +43,46 @@
     </header>
 
     <!-- Main Content -->
-    <main>Main Content</main>
+    <main>
+        <section id="contact-me">
+            <form action="https://formdump.codeinstitute.net" id="contact-form" method="POST">
+                <h2><i class="fa-regular fa-id-card" style="color: #1e3050;"></i> Reach out or get in touch to learn more:</h2>
+                <label for="name">NAME:</label>
+                <input type="text" name="name" id="name" class="text-input" required>
+                <label for="email_address">EMAIL ADDRESS:</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <label for="message">MESSAGE:</label>
+                <textarea name="message" id="message" class="message-field" rows="4" required></textarea>
+                <br>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <h3>Purpose of Inquiry:</h3>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="general-inquiry">General Inquiry</label>
+                        <input type="radio" name="inquiry_purpose" id="general-inquiry" value="general-inquiry" required checked>
+                    </div>
+                    <div>
+                        <label for="collaboration-opportunity">Collaboration Opportunity</label>
+                        <input type="radio" name="inquiry_purpose" id="collaboration-opportunity" value="collaboration-opportunity" required>
+                    </div>
+                    <div>
+                        <label for="job-opportunity">Job Opportunity</label>
+                        <input type="radio" name="inquiry_purpose" id="job-opportunity" value="job-opportunity" required>
+                    </div>
+                    <div>
+                        <label for="other">Other</label>
+                        <input type="radio" name="inquiry_purpose" id="other" value="other" required>
+                    </div>
+                    <br>
+                    <br>
+                    <button type="submit" class="join-button">Get in Touch</button>
+                </div>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
