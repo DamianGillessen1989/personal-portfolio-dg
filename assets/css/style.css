@@ -54,7 +54,9 @@ header a {
 }
 
 #menu > li {
-    margin-bottom: 1em;
+    padding-left: 0 1rem;
+    font-weight: bold;
+    color: #1e3050;
 }
 
 .active {
@@ -207,14 +209,14 @@ main {
 #contact-me {
     background-image: url("../images/dgpersonalportfoliocontact.webp");
     background-size: cover;
-    background-position: 75%;
+    background-position: 60%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
 
 #contact-form {
     color: #1e3050;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .6);
     font-weight: bold;
     padding: 30px;
     display: flex;
@@ -223,19 +225,20 @@ main {
 
 #contact-form > h2 {
     color: #1e3050;
-    margin-bottom: 20px;
+    margin-bottom: 20%;
 }
 
 .text-input {
     background: transparent;
     color: #1e3050;
-    height: 25px;
+    height: 3%;
     margin: 5px 0 20px 0;
-    border: 2px solid #1e3050;
+    border: 2% solid #1e3050;
     border-radius: 2px;
     padding: 0 5px;
-    width: 300px;
+    width: 75%;
     transition: background-color 0.3s ease;
+    border-color: #3a3a3a;
 }
 
 /* Apply white background when input is focused */
@@ -258,15 +261,67 @@ main {
     background-color: #ffffff;
 }
 
+/* Custom radio buttons */
 .radio-buttons {
-    width: 100%;
     display: flex;
-    line-height: 1.5;
     flex-direction: column;
-    justify-content: space-between;
 }
 
-.join-button {
+.radio-buttons div {
+    margin-bottom: 10px;
+}
+
+/* Hide the default radio button */
+.radio-buttons input[type="radio"] {
+    display: none;
+}
+
+/* Style the custom radio button */
+.radio-buttons label {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.radio-buttons label:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid #1e3050;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+/* Change the background color of the custom radio button when checked */
+.radio-buttons input[type="radio"]:checked + label:before {
+    background-color: #1e3050; /* Change to desired color */
+}
+
+/* Style the indicator dot/circle */
+.radio-buttons label:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fafafa; /* Change to desired color */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+/* Show the indicator dot/circle when radio button is checked */
+.radio-buttons input[type="radio"]:checked + label:after {
+    opacity: 1;
+}
+
+.contact-button {
     margin-top: 20px;
     border-radius: 2px;
     border-color: #39546d;
@@ -319,7 +374,8 @@ footer {
     }
 
     #menu > li {
-        padding-left: 1rem;
+        padding-left: 0 1rem;
+        margin: 0 5px;
     }
 
     .nav-toggle-label {
@@ -375,10 +431,43 @@ footer {
     }
 
     #contact-form {
-        max-width: 400px;
+        max-width: 70%;
         position: absolute;
         left: 10%;
-        top: 150px;
+        top: 5%;
+        bottom: 5%;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    #menu > li {
+        padding-left: 0 1.5rem;
+        margin: 0 10px;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+        column-gap: 0;
+    }
+
+    /* Contact Form */
+    #contact-me {
+        background-position: center;
+        position: relative;
+    }
+
+    #contact-form {
+        max-width: 35%;
+        position: absolute;
+        left: 10%;
+        top: 10px;
+        bottom: 10px;
     }
 
     .text-input:hover {
@@ -391,23 +480,10 @@ footer {
         cursor: pointer; /* Pointer/hand icon */
     }
 
-    .join-button:hover {
+    .contact-button:hover {
         background-color: #35516F;
         color: #45b1b;
         cursor: pointer; /* Pointer/hand icon */
-    }
-}
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
-    }
-
-    /* Gallery */
-    #photos {
-        column-count: 4;
-        column-gap: 0;
     }
 }
 
