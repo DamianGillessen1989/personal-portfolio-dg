@@ -31,7 +31,7 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background-color: #DDE6ED ;
+    background-color: #CAD9E3 ;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -66,7 +66,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #DDE6ED;
+    background-color: #CAD9E3;
     width: 100%;
     left: 0;
     padding: 0 1rem;
