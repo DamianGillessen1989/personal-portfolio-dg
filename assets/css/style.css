@@ -65,6 +65,12 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
+h1 img {
+    max-width: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -603,20 +609,17 @@ footer {
     .text-input:hover {
         border-color: #00D8FF;
         cursor: pointer;
-        /* Pointer/hand icon */
     }
 
     .message-field:hover {
         border-color: #00D8FF;
         cursor: pointer;
-        /* Pointer/hand icon */
     }
 
     .contact-button:hover {
         background-color: #35516F;
         color: #CAD9E3;
         cursor: pointer;
-        /* Pointer/hand icon */
     }
 }
 
