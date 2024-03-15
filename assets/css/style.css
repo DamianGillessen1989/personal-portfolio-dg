@@ -206,6 +206,10 @@ main {
     line-height: 0;
 }
 
+#gallery-header {
+    display: none;
+}
+
 /* The modals */
 .modal {
     position: fixed;
