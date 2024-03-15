@@ -483,6 +483,11 @@ footer {
         margin: 0 0.5rem;
     }
 
+    h1 img {
+        max-width: 85px;
+        margin-top: 15px;
+    }
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
