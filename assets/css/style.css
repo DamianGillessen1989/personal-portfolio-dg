@@ -350,8 +350,10 @@ body.modal-open {
 
 /* Custom radio buttons */
 .radio-buttons {
+    position: relative;
     display: flex;
     flex-direction: column;
+    white-space: nowrap;
 }
 
 .radio-buttons div {
