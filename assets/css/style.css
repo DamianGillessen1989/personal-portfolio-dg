@@ -65,12 +65,6 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-h1 img {
-    max-width: 50px;
-    margin-top: 10px;
-    border-radius: 50%;
-}
-
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -350,10 +344,8 @@ body.modal-open {
 
 /* Custom radio buttons */
 .radio-buttons {
-    position: relative;
     display: flex;
     flex-direction: column;
-    white-space: nowrap;
 }
 
 .radio-buttons div {
@@ -485,11 +477,6 @@ footer {
         margin: 0 0.5rem;
     }
 
-    h1 img {
-        max-width: 85px;
-        margin-top: 15px;
-    }
-
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -616,17 +603,20 @@ footer {
     .text-input:hover {
         border-color: #00D8FF;
         cursor: pointer;
+        /* Pointer/hand icon */
     }
 
     .message-field:hover {
         border-color: #00D8FF;
         cursor: pointer;
+        /* Pointer/hand icon */
     }
 
     .contact-button:hover {
         background-color: #35516F;
         color: #CAD9E3;
         cursor: pointer;
+        /* Pointer/hand icon */
     }
 }
 
