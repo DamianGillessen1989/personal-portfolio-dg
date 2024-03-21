@@ -41,7 +41,17 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    max-height: 8.5vh;
+    flex-direction: row-reverse;
+}
+
+header img {
+    height: 7vh; /* Ensure the image fills the height of the header */
+    max-width: 7vh; /* Ensure the image is responsive */
+    margin-top: 2vh;
+    border-radius: 50%;
+    border: 2px solid #1e3050;
 }
 
 header a {
@@ -456,6 +466,11 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
+    header {
+        flex-direction: row;
+        min-height: 74px;
+    }
+    
     nav {
         display: block;
         position: relative;
@@ -580,6 +595,11 @@ footer {
     #menu>li {
         padding-left: 1.5rem;
         margin: 0 10px;
+    }
+
+    header img {
+        height: 8vh;
+        max-width: 8vh;
     }
 
     #hero {
