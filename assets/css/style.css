@@ -620,7 +620,8 @@ footer {
         position: absolute;
         left: 10%;
         top: 10px;
-        bottom: 10px;
+        bottom: 5px;
+        justify-content: space-between;
     }
 
     .text-input:hover {
@@ -640,6 +641,12 @@ footer {
         color: #CAD9E3;
         cursor: pointer;
         /* Pointer/hand icon */
+    }
+
+    .contact-button {
+        position: relative;
+        bottom: 6vh;
+
     }
 }
 
