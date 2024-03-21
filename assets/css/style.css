@@ -164,7 +164,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url('../images/dgpersonalportfolimage2.webp') no-repeat top center / cover;
+    background: url('../images/dgpersonalportfolimageb.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 4vh;
@@ -189,7 +189,7 @@ main {
     color: #1e3050;
 }
 #focus {
-    background: url(../images/dgpersonalportfoliocityscape1.webp) no-repeat center/cover;
+    background: url(../images/dgpersonalportfoliocityscape.webp) no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
