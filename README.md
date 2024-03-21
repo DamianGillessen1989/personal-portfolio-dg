@@ -4,7 +4,7 @@
 
 Hello, I'm Damian Gillessen, and currently, I work in a casino. However, my passion for technology and programming has led me to embark on a journey to become a computer programmer. I am actively participating in and completing courses to acquire the necessary skills and knowledge for this transition. It is my hope that this portfolio and resume will showcase my progress, projects, and skills as I work towards my goal of becoming a proficient computer programmer.
 
-![Responsive Mockup](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/Screenshot%202024-03-15%20at%2021.43.44.png)
+![Responsive Mockup](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/amiresponsiveimage.png)
 
 ## Site Structure
 
