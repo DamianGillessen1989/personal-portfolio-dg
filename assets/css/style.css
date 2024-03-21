@@ -181,6 +181,13 @@ main {
 }
 
 /* Home skills list section */
+.fa-brands {
+    color: #ffffff;
+}
+
+.fa-solid {
+    color: #1e3050;
+}
 #focus {
     background: url(../images/dgpersonalportfoliocityscape1.webp) no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
@@ -295,6 +302,10 @@ body.modal-open {
 }
 
 /* Form */
+.fa-regular {
+    color: #1e3050;
+}
+
 #contact-me {
     background-image: url("../images/dgpersonalportfoliocontact.webp");
     background-size: cover;
@@ -663,7 +674,7 @@ footer {
 
     .contact-button {
         position: relative;
-        bottom: 6vh;
+        bottom: 4vh;
 
     }
 }
