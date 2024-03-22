@@ -187,8 +187,9 @@ main {
 }
 
 .fa-solid {
-    color: #1e3050;
+    color: #ffffff;
 }
+
 #focus {
     background: url(../images/dgpersonalportfoliocityscape.webp) no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
@@ -303,7 +304,7 @@ body.modal-open {
 }
 
 /* Form */
-.fa-regular {
+#form-logo {
     color: #1e3050;
 }
 
@@ -454,14 +455,34 @@ body.modal-open {
     background-color: #1e3050;
     margin: 1vw;
     float: left;
-]   border-radius: 10px; 
+    border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 1); 
     line-height: 1.5;
 }
 
 .right-column {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-experience {
     padding: 20px;
+    background-color: #1e3050;
+    margin: 1vw;
+    float: left;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); 
+    line-height: 1.5;
+}
+
+.education {
+    padding: 20px;
+    background-color: #1e3050;
+    margin: 1vw;
+    float: left;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); 
+    line-height: 1.5;
 }
 
 .indicator {
@@ -481,6 +502,43 @@ body.modal-open {
     cursor: pointer;
     border-color: #39546d;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    width: 130px;
+    margin: 1vh 0 2vh 1vw;
+}
+
+.work-experience-logo {
+    color: #f8f8ff;
+    font-weight: normal;
+    text-transform: none;
+    margin-bottom: 3vw;
+}
+
+.work-experience-title {
+    color: #f8f8ff;
+    font-weight: bold;
+    text-transform: none;
+    opacity: 0.6;
+    font-size: 1em;
+}
+
+.work-experience-dates {
+    color: #f8f8ff;
+    padding: 2vh 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1em;
+    word-spacing: 5px;
+}
+
+.work-experience-tag {
+    background-color: teal; 
+    color: #f8f8ff;
+    border-radius: 4px; 
+    padding: 2px 8px;
+}
+
+.work-experience-text {
+    color: #f8f8ff;
 }
 
 #about-image {
@@ -587,6 +645,14 @@ footer {
 
     .modal-content {
         max-width: 80%;
+    }
+
+    .work-experience {
+        width: 66vw;
+    }
+
+    .education {
+        width: 66vw;
     }
 }
 
