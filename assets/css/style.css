@@ -107,7 +107,7 @@ main {
     background-color: #526D82;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 4.4vw;
+    margin-top: 10vw;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -801,6 +801,11 @@ footer {
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    main {
+        margin-top: 4vw;
+    }
+}
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
