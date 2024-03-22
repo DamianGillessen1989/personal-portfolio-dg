@@ -99,6 +99,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #1e3050;
 }
 
 /* Main content */
@@ -186,7 +187,7 @@ main {
     color: #ffffff;
 }
 
-.fa-solid {
+.skill-logos {
     color: #ffffff;
 }
 
@@ -733,7 +734,6 @@ footer {
 
     /* Gallery */
     #photos {
-        column-count: 3;
         column-gap: 0;
     }
 
@@ -801,7 +801,6 @@ footer {
     }
 }
 
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -826,6 +825,11 @@ footer {
     #photos {
         column-count: 4;
         column-gap: 0;
+    }
+
+    main {
+        /* Push main content down to accommodate larger header */
+        justify-content: center;
     }
 
     .modal {
