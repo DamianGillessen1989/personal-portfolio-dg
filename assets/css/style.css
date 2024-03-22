@@ -495,15 +495,23 @@ body.modal-open {
 }
 
 .download-button {
+    display: inline-block;
     padding: 10px 20px;
     background-color: #1e3050;
     color: #f8f8ff;
+    text-decoration: none;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     border-color: #39546d;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    width: 130px;
+    width: 140px;
     margin: 1vh 0 2vh 1vw;
+    white-space: nowrap;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
 }
 
 .work-experience-logo {
