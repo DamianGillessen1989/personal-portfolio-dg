@@ -12,7 +12,7 @@ Thank you for taking the time to explore my portfolio, and I hope you enjoy the 
 
 ![Responsive Mockup](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/amiresponsiveimage.png)
 
-The live link can be found here - [https://damiangillessen1989.github.io/personal-portfolio-dg/](https://damiangillessen1989.github.io/personal-portfolio-dg/){target="_blank" rel="noopener"}
+The live link can be found here - [https://damiangillessen1989.github.io/personal-portfolio-dg/](https://damiangillessen1989.github.io/personal-portfolio-dg/)
 
 ## User Experience Design
 
@@ -98,7 +98,7 @@ Consistent typography across all pages ensures readability and visual coherence 
 
 Wireframes were meticulously crafted to visualize the project's layout and structure across diverse devices:
 
-[Portfolio Wireframes](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/dg-portfolio-wireframe.pdf){target="_blank" rel="noopener"}
+[Portfolio Wireframes](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/dg-portfolio-wireframe.pdf)
 
 These wireframes served as a first-draft blueprint for page layouts and responsiveness. Iterative adjustments were made during development to enhance user experience and resolve usability challenges.
 
@@ -161,23 +161,23 @@ Overall, the site structure is designed to be user-friendly, logically organised
 
 ### Styling and Design Elements:
 
-- [Google Fonts](https://fonts.google.com/){target="_blank" rel="noopener"} - Provides fonts for the project, specifically Roboto and Dancing Script, linked in the header.
-- [Font Awesome](https://fontawesome.com/){target="_blank" rel="noopener"} - Supplies social media icons used in the footer.
-- [Amiresponsive](https://ui.dev/amiresponsive){target="_blank" rel="noopener"} - Used for creating Responsive Mockup.
-- [Iconos8](https://iconos8.es){target="_blank" rel="noopener"} - Used to find and select Favicons used on site.
-- [Wepik](https://wepik.com){target="_blank" rel="noopener"} - Used to generate AI images for site backgrounds, features and Gallery.
+- [Google Fonts](https://fonts.google.com/) - Provides fonts for the project, specifically Roboto and Dancing Script, linked in the header.
+- [Font Awesome](https://fontawesome.com/) - Supplies social media icons used in the footer.
+- [Amiresponsive](https://ui.dev/amiresponsive) - Used for creating Responsive Mockup.
+- [Iconos8](https://iconos8.es) - Used to find and select Favicons used on site.
+- [Wepik](https://wepik.com) - Used to generate AI images for site backgrounds, features and Gallery.
 
 ### Development and Testing Utilities:
 
-- [Github](https://github.com/){target="_blank" rel="noopener"} - Repository for storing project code after commits and pushes.
-- [Git](https://git-scm.com/){target="_blank" rel="noopener"} - Manages version control, with Gitpod terminal facilitating commits and pushes.
-- [Visual Studio Code](https://code.visualstudio.com/){target="_blank" rel="noopener"} - Served as the primary development environment.
-- [Balsamiq](https://balsamiq.cloud/){target="_blank" rel="noopener"} - Used for creating wireframes to plan project layout and design.
+- [Github](https://github.com/) - Repository for storing project code after commits and pushes.
+- [Git](https://git-scm.com/) - Manages version control, with Gitpod terminal facilitating commits and pushes.
+- [Visual Studio Code](https://code.visualstudio.com/) - Served as the primary development environment.
+- [Balsamiq](https://balsamiq.cloud/) - Used for creating wireframes to plan project layout and design.
 
 ### Optimization and Quality Assurance:
 
-- [Grammarly](https://app.grammarly.com/){target="_blank" rel="noopener"} - Employed to rectify grammar errors across the project, ensuring polished content.
-- [w3 Validator](https://validator.w3.org/){target="_blank" rel="noopener"} - Used to verify the HTML of the site pages and CSS styling code.
+- [Grammarly](https://app.grammarly.com/) - Employed to rectify grammar errors across the project, ensuring polished content.
+- [w3 Validator](https://validator.w3.org/) - Used to verify the HTML of the site pages and CSS styling code.
 
 ## Testing
 
@@ -229,15 +229,15 @@ By completing this thorough validator testing I was able to identify and resolve
 
 During the development process of my personal resume website, several bugs were identified and resolved to ensure optimal performance and user experience:
 
-- Initially, the main content section of the website was pushing the header and navbar upwards, causing them to become partially or entirely hidden from view. Upon investigation, it was discovered that the issue stemmed from the positioning properties applied to the header element. [Header bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-before.webp){target="_blank" rel="noopener"} - [Header bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-after.webp){target="_blank" rel="noopener"}
+- Initially, the main content section of the website was pushing the header and navbar upwards, causing them to become partially or entirely hidden from view. Upon investigation, it was discovered that the issue stemmed from the positioning properties applied to the header element. [Header bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-before.webp) - [Header bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-after.webp)
 
-- An issue arose in the skills section where the five skill boxes were only aligning vertically, disrupting the intended layout and presentation of the content. After a thorough investigation, it was determined that the problem stemmed from the box-sizing properties applied to the skill boxes. [Skill Box bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/skill-box-before.webp){target="_blank" rel="noopener"} - [Skill Box bug after-image](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/skill-box-after.webp){target="_blank" rel="noopener"}
+- An issue arose in the skills section where the five skill boxes were only aligning vertically, disrupting the intended layout and presentation of the content. After a thorough investigation, it was determined that the problem stemmed from the box-sizing properties applied to the skill boxes. [Skill Box bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/skill-box-before.webp) - [Skill Box bug after-image](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/skill-box-after.webp)
 
-- Upon inspection of the header section, an issue was identified where the logo image was not displaying correctly. The logo image appeared to be cropped, with half of it extending beyond the right-hand side of the screen, disrupting the header's visual coherence and brand representation. After investigating the root cause of the problem, it was discovered that the issue stemmed from improper image sizing and alignment properties. To rectify this issue, adjustments were made to the logo image's dimensions and positioning within the header section. [Header Logo bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-before.webp){target="_blank" rel="noopener"} - [Header Logo bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-after.webp){target="_blank" rel="noopener"}
+- Upon inspection of the header section, an issue was identified where the logo image was not displaying correctly. The logo image appeared to be cropped, with half of it extending beyond the right-hand side of the screen, disrupting the header's visual coherence and brand representation. After investigating the root cause of the problem, it was discovered that the issue stemmed from improper image sizing and alignment properties. To rectify this issue, adjustments were made to the logo image's dimensions and positioning within the header section. [Header Logo bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-before.webp) - [Header Logo bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-after.webp)
 
-- During the refinement of CSS styling for the website's layout, an unexpected issue emerged with the footer section. Following a modification in the CSS code to enhance styling elements, the footer mysteriously vanished from the screen altogether. Upon thorough investigation, it was revealed that the footer's sudden disappearance was caused by inadvertently setting its position to 'fixed'. [Footer bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-before.webp){target="_blank" rel="noopener"} - [Footer bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-after.webp){target="_blank" rel="noopener"}
+- During the refinement of CSS styling for the website's layout, an unexpected issue emerged with the footer section. Following a modification in the CSS code to enhance styling elements, the footer mysteriously vanished from the screen altogether. Upon thorough investigation, it was revealed that the footer's sudden disappearance was caused by inadvertently setting its position to 'fixed'. [Footer bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-before.webp) - [Footer bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-after.webp)
 
-- Upon inspecting the contact section of the website, a perplexing issue surfaced where the form elements were disorganized and scattered across the page, rendering the form non-functional. Despite thorough scrutiny, the root cause of this erratic behaviour remained elusive. However, a breakthrough occurred when I realized that restructuring the layout using a flexbox approach could potentially resolve the issue. Implementing this strategy, I transformed the contact section into a flex container and made adjustments to the flex-direction property. [Contact Form bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-before.webp){target="_blank" rel="noopener"} - [Contact Form bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-after.webp){target="_blank" rel="noopener"}
+- Upon inspecting the contact section of the website, a perplexing issue surfaced where the form elements were disorganized and scattered across the page, rendering the form non-functional. Despite thorough scrutiny, the root cause of this erratic behaviour remained elusive. However, a breakthrough occurred when I realized that restructuring the layout using a flexbox approach could potentially resolve the issue. Implementing this strategy, I transformed the contact section into a flex container and made adjustments to the flex-direction property. [Contact Form bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-before.webp) - [Contact Form bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-after.webp)
 
 ### Unresolved Bugs
 
@@ -285,7 +285,7 @@ In conclusion, the deployment of the personal portfolio website using VSC, Sourc
   - From the source section drop-down menu, select the Main Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - [https://damiangillessen1989.github.io/personal-portfolio-dg/](https://damiangillessen1989.github.io/personal-portfolio-dg/){target="_blank" rel="noopener"} 
+The live link can be found here - [https://damiangillessen1989.github.io/personal-portfolio-dg/](https://damiangillessen1989.github.io/personal-portfolio-dg/) 
 
 ## Credits
 
