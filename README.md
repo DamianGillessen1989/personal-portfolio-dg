@@ -180,9 +180,35 @@ When possible it is hoped that I may implement the below testing processes on my
 
 2. **Security Testing:** Security measures such as SSL certification, secure connections, and protection against common vulnerabilities like SQL injection and cross-site scripting will be verified.
 
-### Validator Testing 
+### Validator Testing
 
-### Unfixed Bugs
+To ensure the validity and adherence to web standards, I conducted rigorous testing using various online validators and tools. The following steps outline the validation process:
+
+1. HTML Validation: The HTML code was validated using the W3C Markup Validation Service to check for syntax errors, missing elements, and adherence to HTML standards.
+
+2. CSS Validation: The CSS code was validated using the W3C CSS Validation Service to identify any errors, warnings, or deprecated syntax that may affect styling and layout consistency.
+
+3. Performance Analysis: Performance metrics were analyzed using tools like Google PageSpeed Insights and Lighthouse to assess page load times, rendering speed, and overall performance optimization.
+
+4. Mobile-Friendly Testing: The site's mobile-friendliness was evaluated using Google Chrome's Developer Tools, and testing on multiple screen sizes, device types, and orientations, including landscape and portrait modes.
+
+5. Browser Compatibility Testing: The site was tested on multiple browsers and browser versions (e.g., Chrome, Firefox, Safari, Edge) to verify consistent rendering and functionality across different platforms.
+
+By completing this thorough validator testing I was able to identify and resolve any coding errors, accessibility issues, or performance problems, resulting in (hopefully) a compliant, user-friendly, and optimally performing website.
+
+### Addressed and Unsolved Bugs
+
+During the development process of my personal resume website, several bugs were identified and resolved to ensure optimal performance and user experience:
+
+- Initially, the main content section of the website was pushing the header and navbar upwards, causing them to become partially or entirely hidden from view. Upon investigation, it was discovered that the issue stemmed from the positioning properties applied to the header element. 
+
+- An issue arose in the skills section where the five skill boxes were only aligning vertically, disrupting the intended layout and presentation of the content. After thorough investigation, it was determined that the problem stemmed from the box-sizing properties applied to the skill boxes.
+
+- Upon inspection of the header section, an issue was identified where the logo image was not displaying correctly. The logo image appeared to be cropped, with half of it extending beyond the right-hand side of the screen, disrupting the header's visual coherence and brand representation. After investigating the root cause of the problem, it was discovered that the issue stemmed from improper image sizing and alignment properties. To rectify this issue, adjustments were made to the logo image's dimensions and positioning within the header section.
+
+- During the refinement of CSS styling for the website's layout, an unexpected issue emerged with the footer section. Following a modification in the CSS code to enhance styling elements, the footer mysteriously vanished from the screen altogether. Upon thorough investigation, it was revealed that the footer's sudden disappearance was caused by inadvertently setting its position to 'fixed'.
+
+- Upon inspecting the contact section of the website, a perplexing issue surfaced where the form elements were disorganized and scattered across the page, rendering the form non-functional. Despite thorough scrutiny, the root cause of this erratic behavior remained elusive. However, a breakthrough occurred when I realized that restructuring the layout using a flexbox approach could potentially resolve the issue. Implementing this strategy, I transformed the contact section into a flex container and made adjustments to the flex-direction property.
 
 ## Deployment
 
