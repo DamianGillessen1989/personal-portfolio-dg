@@ -20,7 +20,7 @@ In crafting this portfolio, I sought inspiration and guidance from key principle
 
 ## Project Planning Phases
 
-I split the process of planning the project was into five distinct phases:
+I split the process of planning the project into five distinct phases:
 
 - Strategy Plane
 - Scope Plane
@@ -76,7 +76,7 @@ Phase 3:
 
 ### Structure Plane
 
-Given the nature of the portfolio and the lack of text based content, considerable emphasis was placed on structuring the pages to sustain user attention and engagement:
+Given the nature of the portfolio and the lack of text-based content, considerable emphasis was placed on structuring the pages to sustain user attention and engagement:
 
 Color Palette:
 
@@ -85,7 +85,7 @@ Color Palette:
 - Navy Blue
 - White
 
-As an avid night-mode user, I wanted to design the page from scratch with night-mode in mind. A dark background was chosen to reduce visual strain and elevate the prominence of images and the light text chosen to accompany the theme. The color scheme was meticulously crafted to deliver a visually pleasing and cohesive experience and images of a colourful and engaging nature were also included.
+As an avid night-mode user, I wanted to design the page from scratch with night-mode in mind. A dark background was chosen to reduce visual strain and elevate the prominence of images and light text was chosen to accompany the theme. The color scheme was meticulously crafted to deliver a visually pleasing and cohesive experience and images of a colourful and engaging nature were also included.
 
 Typography:
 
@@ -102,6 +102,36 @@ Wireframes were meticulously crafted to visualize the project's layout and struc
 
 These wireframes served as a first-draft blueprint for page layouts and responsiveness. Iterative adjustments were made during development to enhance user experience and resolve usability challenges.
 
+### Site Structure
+
+The site structure of my personal portfolio and resume is designed to provide a seamless and intuitive navigation experience for visitors. The structure is organized into distinct sections, each serving a specific purpose and presenting relevant information effectively. Below is an overview of the site structure:
+
+1. Introduction/Home Page:
+
+- The landing page offers a brief overview of my skills and reasons why a user should check my portfolio.
+- It serves as the entry point to the portfolio, providing visitors with an introduction to the content and navigation options.
+
+2. About Me:
+
+- This section provides detailed information about my professional background, skills, and qualifications as well as providing users with a place to download a PDF copy of my CV.
+- It includes a summary of work experience, education, skills, and personal interests to give visitors a comprehensive understanding of my profile.
+
+3. Projects Gallery:
+
+- The projects gallery showcases a selection of my most 'notable' projects, demonstrating expertise and proficiency in various areas.
+
+4. Contact:
+
+- The contact section offers visitors a convenient way to get in touch with me for inquiries, collaborations, or other purposes.
+- It includes a contact form, social media links, and other contact details to facilitate communication and engagement.
+
+5. Footer:
+
+- The footer section appears on every page of the portfolio, providing quick access to social media icons, and other relevant information.
+- It serves as a consistent anchor point for users to navigate the site and connect with me across different pages.
+
+Overall, the site structure is designed to be user-friendly, logically organised, and visually appealing, ensuring a positive and engaging experience for visitors exploring my portfolio and resume.
+
 ## Surface Plane
 
 ### Features Present:
@@ -109,8 +139,8 @@ These wireframes served as a first-draft blueprint for page layouts and responsi
 - Responsive navbar facilitating easy navigation.
 - Footer housing navigation links and social media icons.
 - Hero images captivating users' attention.
-- Download button providing my personal cv in pdf form.
-- Contact button on contact page which will submit users info.
+- Download button providing my personal CV in PDF form.
+- Contact button on the contact page which will submit users' info.
 - Interactive Gallery of previous projects in image form.
 - **Favicon:** A unique favicon has been added to enhance the visual identity of the portfolio.
 
@@ -120,6 +150,7 @@ These wireframes served as a first-draft blueprint for page layouts and responsi
 - Incorporation of dynamic content such as videos or gifs.
 - Light/dark mode toggle catering to user preferences.
 - Adoption of a custom domain and URL to fortify branding efforts.
+- Enhance the Gallary page so each project is presented with a brief description, key features, and relevant links or resources for further exploration.
 
 ## Technologies Used:
 
@@ -147,10 +178,6 @@ These wireframes served as a first-draft blueprint for page layouts and responsi
 
 - [Grammarly](https://app.grammarly.com/) - Employed to rectify grammar errors across the project, ensuring polished content.
 - [w3 Validator](https://validator.w3.org/) - Used to verify the HTML of the site pages and CSS styling code.
-
-## Site Structure
-
-XXXXXXXXX
 
 ## Testing
 
@@ -204,13 +231,13 @@ During the development process of my personal resume website, several bugs were 
 
 - Initially, the main content section of the website was pushing the header and navbar upwards, causing them to become partially or entirely hidden from view. Upon investigation, it was discovered that the issue stemmed from the positioning properties applied to the header element. [Header bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-before.webp) [Header bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-after.webp)
 
-- An issue arose in the skills section where the five skill boxes were only aligning vertically, disrupting the intended layout and presentation of the content. After thorough investigation, it was determined that the problem stemmed from the box-sizing properties applied to the skill boxes. [Skill Box bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/skill-box-before.webp) [Skill Box bug after-image](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/skill-box-after.webp)
+- An issue arose in the skills section where the five skill boxes were only aligning vertically, disrupting the intended layout and presentation of the content. After a thorough investigation, it was determined that the problem stemmed from the box-sizing properties applied to the skill boxes. [Skill Box bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/skill-box-before.webp) [Skill Box bug after-image](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/skill-box-after.webp)
 
 - Upon inspection of the header section, an issue was identified where the logo image was not displaying correctly. The logo image appeared to be cropped, with half of it extending beyond the right-hand side of the screen, disrupting the header's visual coherence and brand representation. After investigating the root cause of the problem, it was discovered that the issue stemmed from improper image sizing and alignment properties. To rectify this issue, adjustments were made to the logo image's dimensions and positioning within the header section. [Header Logo bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-before.webp) [Header Logo bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-after.webp)
 
 - During the refinement of CSS styling for the website's layout, an unexpected issue emerged with the footer section. Following a modification in the CSS code to enhance styling elements, the footer mysteriously vanished from the screen altogether. Upon thorough investigation, it was revealed that the footer's sudden disappearance was caused by inadvertently setting its position to 'fixed'. [Footer bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-before.webp) [Footer bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-after.webp)
 
-- Upon inspecting the contact section of the website, a perplexing issue surfaced where the form elements were disorganized and scattered across the page, rendering the form non-functional. Despite thorough scrutiny, the root cause of this erratic behavior remained elusive. However, a breakthrough occurred when I realized that restructuring the layout using a flexbox approach could potentially resolve the issue. Implementing this strategy, I transformed the contact section into a flex container and made adjustments to the flex-direction property. [Contact Form bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-before.webp) [Contact Form bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-after.webp)
+- Upon inspecting the contact section of the website, a perplexing issue surfaced where the form elements were disorganized and scattered across the page, rendering the form non-functional. Despite thorough scrutiny, the root cause of this erratic behaviour remained elusive. However, a breakthrough occurred when I realized that restructuring the layout using a flexbox approach could potentially resolve the issue. Implementing this strategy, I transformed the contact section into a flex container and made adjustments to the flex-direction property. [Contact Form bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-before.webp) [Contact Form bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-after.webp)
 
 ### Unresolved Bugs
 
@@ -218,13 +245,13 @@ During the development process of my personal resume website, several bugs were 
 
 ## Deployment
 
-Once the development phase of the personal portfolio website was completed, the deployment process was initiated to make the site accessible to users on the internet. The deployment strategy involved leveraging a combination of Visual Studio Code (VSC), Sourcetree, and Git/Github to ensure a seamless transition from development to production.
+Once the development phase of the personal portfolio website was completed, the deployment process was initiated to make the site accessible to users on the Internet. The deployment strategy involved leveraging a combination of Visual Studio Code (VSC), Sourcetree, and Git/Github to ensure a seamless transition from development to production.
 
 1. Version Control with Git/Github:
 
 - Git was utilized as the primary version control system throughout the development process.
 - All code changes and updates were meticulously tracked using Git, allowing for efficient collaboration and easy rollback to previous versions if needed.
-- Github served as the remote repository where the project's codebase was stored securely in the cloud.
+- GitHub served as the remote repository where the project's codebase was stored securely in the cloud.
 - Regular commits were made to document changes and maintain a comprehensive history of the project.
 
 2. Development Environment with Visual Studio Code (VSC):
@@ -239,9 +266,9 @@ Once the development phase of the personal portfolio website was completed, the 
 - Branching and merging functionalities within Sourcetree allowed for parallel development and seamless integration of new features.
 - The deployment workflow involved pushing the finalized codebase from the local repository to the remote repository on Github using Sourcetree.
 
-4. Hosting on Github Pages:
+4. Hosting on GitHub Pages:
 
-- Github Pages, a static site hosting service offered by Github, was chosen as the deployment platform for the personal portfolio website.
+- GitHub Pages, a static site hosting service offered by Github, was chosen as the deployment platform for the personal portfolio website.
 - The deployment to Github Pages was initiated directly from the Github repository, leveraging the built-in functionality to publish the site.
 - Continuous integration and deployment (CI/CD) pipelines were configured to automatically deploy updates to the website whenever changes were pushed to the master branch.
 
@@ -295,7 +322,7 @@ I would like to express my gratitude to the following individuals and resources 
 
 - Peers and Instructors at the Code Institute - For providing valuable feedback and guidance during the development and testing phases. Especially Thomas for his constant feedback and support.
 - Stack Overflow - A treasure trove of knowledge and solutions to various coding challenges encountered during development.
-- My cousin Hanno - For his continuous support and educational tips and endless patience.
+- My cousin Hanno - For his continuous support educational tips and endless patience.
 - My daughter Thea - Just for being my daughter.
 
 Thank you to everyone who has contributed directly or indirectly to the success of this project. Your support and encouragement have been instrumental in bringing this vision to life.
