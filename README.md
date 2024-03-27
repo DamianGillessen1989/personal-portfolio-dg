@@ -260,18 +260,42 @@ In conclusion, the deployment of the personal portfolio website using VSC, Sourc
 
 The live link can be found here - https://damiangillessen1989.github.io/personal-portfolio-dg/ 
 
-## Credits 
+## Credits
 
-The Favicon used for this site was retrieved from iconos8.es:
+### Development Tools and Frameworks
+
+**HTML** - Utilized as the foundational structure of the project's content.
+**CSS** - Employed to style all web content uniformly throughout the project.
+
+### Styling and Design Elements
+
+**Google Fonts** - Provides fonts for the project, specifically Roboto and Dancing Script, linked in the header.
+**Font Awesome** - Supplies social media icons used in the footer.
+**Amiresponsive** - Used for creating Responsive Mockup.
+**Iconos8** - The Favicon used for this site was retrieved from iconos8.es:
 <a target="_blank" href="https://icons8.com/icon/kvqTlMRogUYm/cuenta-de-prueba">Cuenta de Prueba</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
+**Wepik** - Utilized to generate AI images for site backgrounds, features, and the Gallery section.
 
-## Content 
+### Development and Testing Utilities
 
-- The text for the Home page was written by me and is a history of my professional work experience and education
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+**Github** - Repository for storing project code after commits and pushes.
+**Git** - Manages version control, with Gitpod terminal facilitating commits and pushes.
+**Visual Studio Code** - Served as the primary development environment.
+**Balsamiq** - Used for creating wireframes to plan project layout and design.
 
-### Media
+### Optimization and Quality Assurance
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+**Grammarly** - Employed to rectify grammar errors across the project, ensuring polished content.
+**w3 Validator** - Used to verify the HTML of the site pages and CSS styling code.
+**ChatGPT** - For constant advice and help with the textual content of the site.
 
+### Acknowledgements
+
+I would like to express my gratitude to the following individuals and resources for their invaluable contributions and support throughout the development of this project:
+
+- Peers and Instructors at the Code Institute - For providing valuable feedback and guidance during the development and testing phases. Especially Thomas for his constant feedback and support.
+- Stack Overflow - A treasure trove of knowledge and solutions to various coding challenges encountered during development.
+- My cousin Hanno - For his continuous support and educational tips and endless patience.
+- My daughter Thea - Just for being my daughter.
+
+Thank you to everyone who has contributed directly or indirectly to the success of this project. Your support and encouragement have been instrumental in bringing this vision to life.
