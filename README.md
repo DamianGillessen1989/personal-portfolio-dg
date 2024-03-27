@@ -132,7 +132,7 @@ The site structure of my personal portfolio and resume is designed to provide a 
 
 Overall, the site structure is designed to be user-friendly, logically organised, and visually appealing, ensuring a positive and engaging experience for visitors exploring my portfolio and resume.
 
-## Surface Plane
+### Surface Plane
 
 ### Features Present:
 
@@ -229,15 +229,15 @@ By completing this thorough validator testing I was able to identify and resolve
 
 During the development process of my personal resume website, several bugs were identified and resolved to ensure optimal performance and user experience:
 
-- Initially, the main content section of the website was pushing the header and navbar upwards, causing them to become partially or entirely hidden from view. Upon investigation, it was discovered that the issue stemmed from the positioning properties applied to the header element. [Header bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-before.webp) [Header bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-after.webp)
+- Initially, the main content section of the website was pushing the header and navbar upwards, causing them to become partially or entirely hidden from view. Upon investigation, it was discovered that the issue stemmed from the positioning properties applied to the header element. [Header bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-before.webp){:target="_blank" rel="noopener"} - [Header bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-after.webp){:target="_blank" rel="noopener"}
 
-- An issue arose in the skills section where the five skill boxes were only aligning vertically, disrupting the intended layout and presentation of the content. After a thorough investigation, it was determined that the problem stemmed from the box-sizing properties applied to the skill boxes. [Skill Box bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/skill-box-before.webp) [Skill Box bug after-image](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/skill-box-after.webp)
+- An issue arose in the skills section where the five skill boxes were only aligning vertically, disrupting the intended layout and presentation of the content. After a thorough investigation, it was determined that the problem stemmed from the box-sizing properties applied to the skill boxes. [Skill Box bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/skill-box-before.webp){:target="_blank" rel="noopener"} - [Skill Box bug after-image](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/skill-box-after.webp){:target="_blank" rel="noopener"}
 
-- Upon inspection of the header section, an issue was identified where the logo image was not displaying correctly. The logo image appeared to be cropped, with half of it extending beyond the right-hand side of the screen, disrupting the header's visual coherence and brand representation. After investigating the root cause of the problem, it was discovered that the issue stemmed from improper image sizing and alignment properties. To rectify this issue, adjustments were made to the logo image's dimensions and positioning within the header section. [Header Logo bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-before.webp) [Header Logo bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-after.webp)
+- Upon inspection of the header section, an issue was identified where the logo image was not displaying correctly. The logo image appeared to be cropped, with half of it extending beyond the right-hand side of the screen, disrupting the header's visual coherence and brand representation. After investigating the root cause of the problem, it was discovered that the issue stemmed from improper image sizing and alignment properties. To rectify this issue, adjustments were made to the logo image's dimensions and positioning within the header section. [Header Logo bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-before.webp){:target="_blank" rel="noopener"} - [Header Logo bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-after.webp){:target="_blank" rel="noopener"}
 
-- During the refinement of CSS styling for the website's layout, an unexpected issue emerged with the footer section. Following a modification in the CSS code to enhance styling elements, the footer mysteriously vanished from the screen altogether. Upon thorough investigation, it was revealed that the footer's sudden disappearance was caused by inadvertently setting its position to 'fixed'. [Footer bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-before.webp) [Footer bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-after.webp)
+- During the refinement of CSS styling for the website's layout, an unexpected issue emerged with the footer section. Following a modification in the CSS code to enhance styling elements, the footer mysteriously vanished from the screen altogether. Upon thorough investigation, it was revealed that the footer's sudden disappearance was caused by inadvertently setting its position to 'fixed'. [Footer bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-before.webp){:target="_blank" rel="noopener"} - [Footer bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-after.webp){:target="_blank" rel="noopener"}
 
-- Upon inspecting the contact section of the website, a perplexing issue surfaced where the form elements were disorganized and scattered across the page, rendering the form non-functional. Despite thorough scrutiny, the root cause of this erratic behaviour remained elusive. However, a breakthrough occurred when I realized that restructuring the layout using a flexbox approach could potentially resolve the issue. Implementing this strategy, I transformed the contact section into a flex container and made adjustments to the flex-direction property. [Contact Form bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-before.webp) [Contact Form bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-after.webp)
+- Upon inspecting the contact section of the website, a perplexing issue surfaced where the form elements were disorganized and scattered across the page, rendering the form non-functional. Despite thorough scrutiny, the root cause of this erratic behaviour remained elusive. However, a breakthrough occurred when I realized that restructuring the layout using a flexbox approach could potentially resolve the issue. Implementing this strategy, I transformed the contact section into a flex container and made adjustments to the flex-direction property. [Contact Form bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-before.webp){:target="_blank" rel="noopener"} - [Contact Form bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-after.webp){:target="_blank" rel="noopener"}
 
 ### Unresolved Bugs
 
@@ -291,30 +291,30 @@ The live link can be found here - https://damiangillessen1989.github.io/personal
 
 ### Development Tools and Frameworks
 
-**HTML** - Utilized as the foundational structure of the project's content.
-**CSS** - Employed to style all web content uniformly throughout the project.
+- **HTML** - Utilized as the foundational structure of the project's content.
+- **CSS** - Employed to style all web content uniformly throughout the project.
 
 ### Styling and Design Elements
 
-**Google Fonts** - Provides fonts for the project, specifically Roboto and Dancing Script, linked in the header.
-**Font Awesome** - Supplies social media icons used in the footer.
-**Amiresponsive** - Used for creating Responsive Mockup.
-**Iconos8** - The Favicon used for this site was retrieved from iconos8.es:
+- **Google Fonts** - Provides fonts for the project, specifically Roboto and Dancing Script, linked in the header.
+- **Font Awesome** - Supplies social media icons used in the footer.
+- **Amiresponsive** - Used for creating Responsive Mockup.
+- **Iconos8** - The Favicon used for this site was retrieved from iconos8.es:
 <a target="_blank" href="https://icons8.com/icon/kvqTlMRogUYm/cuenta-de-prueba">Cuenta de Prueba</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
-**Wepik** - Utilized to generate AI images for site backgrounds, features, and the Gallery section.
+- **Wepik** - Utilized to generate AI images for site backgrounds, features, and the Gallery section.
 
 ### Development and Testing Utilities
 
-**Github** - Repository for storing project code after commits and pushes.
-**Git** - Manages version control, with Gitpod terminal facilitating commits and pushes.
-**Visual Studio Code** - Served as the primary development environment.
-**Balsamiq** - Used for creating wireframes to plan project layout and design.
+- **Github** - Repository for storing project code after commits and pushes.
+- **Git** - Manages version control, with Gitpod terminal facilitating commits and pushes.
+- **Visual Studio Code** - Served as the primary development environment.
+- **Balsamiq** - Used for creating wireframes to plan project layout and design.
 
 ### Optimization and Quality Assurance
 
-**Grammarly** - Employed to rectify grammar errors across the project, ensuring polished content.
-**w3 Validator** - Used to verify the HTML of the site pages and CSS styling code.
-**ChatGPT** - For constant advice and help with the textual content of the site.
+- **Grammarly** - Employed to rectify grammar errors across the project, ensuring polished content.
+- **w3 Validator** - Used to verify the HTML of the site pages and CSS styling code.
+- **ChatGPT** - For constant advice and help with the textual content of the site.
 
 ### Acknowledgements
 
