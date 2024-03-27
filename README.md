@@ -196,23 +196,62 @@ To ensure the validity and adherence to web standards, I conducted rigorous test
 
 By completing this thorough validator testing I was able to identify and resolve any coding errors, accessibility issues, or performance problems, resulting in (hopefully) a compliant, user-friendly, and optimally performing website.
 
-### Addressed and Unsolved Bugs
+## Resolved and Unsolved Bugs
+
+### Resolved Bugs
 
 During the development process of my personal resume website, several bugs were identified and resolved to ensure optimal performance and user experience:
 
-- Initially, the main content section of the website was pushing the header and navbar upwards, causing them to become partially or entirely hidden from view. Upon investigation, it was discovered that the issue stemmed from the positioning properties applied to the header element. 
+- Initially, the main content section of the website was pushing the header and navbar upwards, causing them to become partially or entirely hidden from view. Upon investigation, it was discovered that the issue stemmed from the positioning properties applied to the header element. [Header bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-before.webp) [Header bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-after.webp)
 
-- An issue arose in the skills section where the five skill boxes were only aligning vertically, disrupting the intended layout and presentation of the content. After thorough investigation, it was determined that the problem stemmed from the box-sizing properties applied to the skill boxes.
+- An issue arose in the skills section where the five skill boxes were only aligning vertically, disrupting the intended layout and presentation of the content. After thorough investigation, it was determined that the problem stemmed from the box-sizing properties applied to the skill boxes. [Skill Box bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/skill-box-before.webp) [Skill Box bug after-image](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/skill-box-after.webp)
 
-- Upon inspection of the header section, an issue was identified where the logo image was not displaying correctly. The logo image appeared to be cropped, with half of it extending beyond the right-hand side of the screen, disrupting the header's visual coherence and brand representation. After investigating the root cause of the problem, it was discovered that the issue stemmed from improper image sizing and alignment properties. To rectify this issue, adjustments were made to the logo image's dimensions and positioning within the header section.
+- Upon inspection of the header section, an issue was identified where the logo image was not displaying correctly. The logo image appeared to be cropped, with half of it extending beyond the right-hand side of the screen, disrupting the header's visual coherence and brand representation. After investigating the root cause of the problem, it was discovered that the issue stemmed from improper image sizing and alignment properties. To rectify this issue, adjustments were made to the logo image's dimensions and positioning within the header section. [Header Logo bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-before.webp) [Header Logo bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-after.webp)
 
-- During the refinement of CSS styling for the website's layout, an unexpected issue emerged with the footer section. Following a modification in the CSS code to enhance styling elements, the footer mysteriously vanished from the screen altogether. Upon thorough investigation, it was revealed that the footer's sudden disappearance was caused by inadvertently setting its position to 'fixed'.
+- During the refinement of CSS styling for the website's layout, an unexpected issue emerged with the footer section. Following a modification in the CSS code to enhance styling elements, the footer mysteriously vanished from the screen altogether. Upon thorough investigation, it was revealed that the footer's sudden disappearance was caused by inadvertently setting its position to 'fixed'. [Footer bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-before.webp) [Footer bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-after.webp)
 
-- Upon inspecting the contact section of the website, a perplexing issue surfaced where the form elements were disorganized and scattered across the page, rendering the form non-functional. Despite thorough scrutiny, the root cause of this erratic behavior remained elusive. However, a breakthrough occurred when I realized that restructuring the layout using a flexbox approach could potentially resolve the issue. Implementing this strategy, I transformed the contact section into a flex container and made adjustments to the flex-direction property.
+- Upon inspecting the contact section of the website, a perplexing issue surfaced where the form elements were disorganized and scattered across the page, rendering the form non-functional. Despite thorough scrutiny, the root cause of this erratic behavior remained elusive. However, a breakthrough occurred when I realized that restructuring the layout using a flexbox approach could potentially resolve the issue. Implementing this strategy, I transformed the contact section into a flex container and made adjustments to the flex-direction property. [Contact Form bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-before.webp) [Contact Form bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-after.webp)
+
+### Unresolved Bugs
+
+- An anomaly surfaced during testing when the contact form exhibited usability issues specifically in landscape mode on extra-large (XL) screens. In this configuration, the form elements appeared distorted and rendered unusable, presenting a significant impediment to user interaction. 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+Once the development phase of the personal portfolio website was completed, the deployment process was initiated to make the site accessible to users on the internet. The deployment strategy involved leveraging a combination of Visual Studio Code (VSC), Sourcetree, and Git/Github to ensure a seamless transition from development to production.
+
+1. Version Control with Git/Github:
+
+- Git was utilized as the primary version control system throughout the development process.
+- All code changes and updates were meticulously tracked using Git, allowing for efficient collaboration and easy rollback to previous versions if needed.
+- Github served as the remote repository where the project's codebase was stored securely in the cloud.
+- Regular commits were made to document changes and maintain a comprehensive history of the project.
+
+2. Development Environment with Visual Studio Code (VSC):
+
+- Visual Studio Code (VSC) served as the integrated development environment (IDE) for building and editing the website's code.
+- VSC's intuitive interface and robust feature set facilitated efficient coding, debugging, and testing of the website.
+- Extensions such as Live Server and GitLens enhanced productivity and provided valuable insights into the project's development workflow.
+
+3. Deployment Process with Sourcetree:
+
+- Sourcetree, a powerful Git GUI client, was employed to streamline the deployment process and manage the Git repository visually.
+- Branching and merging functionalities within Sourcetree allowed for parallel development and seamless integration of new features.
+- The deployment workflow involved pushing the finalized codebase from the local repository to the remote repository on Github using Sourcetree.
+
+4. Hosting on Github Pages:
+
+- Github Pages, a static site hosting service offered by Github, was chosen as the deployment platform for the personal portfolio website.
+- The deployment to Github Pages was initiated directly from the Github repository, leveraging the built-in functionality to publish the site.
+- Continuous integration and deployment (CI/CD) pipelines were configured to automatically deploy updates to the website whenever changes were pushed to the master branch.
+
+5. Final Testing and Verification:
+
+- Before making the website live, thorough testing was conducted to ensure its functionality, compatibility, and responsiveness across various devices and browsers.
+- Visual inspection, cross-browser testing, and performance optimization were carried out to deliver an optimal user experience.
+- Any issues identified during testing were addressed promptly, and necessary adjustments were made to ensure the website met the highest standards of quality and usability.
+
+In conclusion, the deployment of the personal portfolio website using VSC, Sourcetree, and Git/Github was executed meticulously to guarantee a smooth and successful transition from development to production. The collaborative tools and streamlined processes employed throughout the deployment lifecycle ensured that the website was delivered with precision and professionalism, ready to showcase my skills, projects, and accomplishments to the world.
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 

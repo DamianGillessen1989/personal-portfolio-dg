@@ -1015,8 +1015,7 @@ footer {
 
     .contact-button {
         position: relative;
-        bottom: 4vh;
-
+        bottom: 6vh;
     }
 
     #error-paragraph {
