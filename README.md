@@ -137,17 +137,17 @@ Overall, the site structure is designed to be user-friendly, logically organised
 ### Features Present:
 
 - Responsive navbar facilitating easy navigation.
-![Responsive Navbar]()
+![Responsive Navbar](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header.webp)
 - Footer housing navigation links and social media icons.
-![Footer]()
+![Footer](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer.webp)
 - Hero images captivating users' attention.
-![Hero Image]()
+![Hero Image]https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/hero-image.webp()
 - Download button providing my personal CV in PDF form.
 ![Download CV button]()
 - Contact button on the contact form which will submit users' info.
-![Contact me button]()
+![Contact me button](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-button.webp)
 - Interactive Gallery of previous projects in image form.
-![Interactive Gallery]()
+![Interactive Gallery](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/gallary.webp)
 
 ### Features to Implement:
 
@@ -183,6 +183,7 @@ Overall, the site structure is designed to be user-friendly, logically organised
 
 - [Grammarly](https://app.grammarly.com/) - Employed to rectify grammar errors across the project, ensuring polished content.
 - [w3 Validator](https://validator.w3.org/) - Used to verify the HTML of the site pages and CSS styling code.
+- Google Chrome DevTools & Lighthosue - Used to check the performance of the site.
 
 ## Testing
 
@@ -201,6 +202,8 @@ To ensure the optimal performance and functionality of the new site, a thorough 
 6. **Content Verification:** All textual content, images, and multimedia elements were reviewed to ensure accuracy, relevance, and proper formatting.
 
 7. **Accessibility Testing:** The site was evaluated for accessibility compliance by testing with screen readers and ensuring proper use of alt text for images and other multimedia elements.
+
+8. **Performace Testing:** The site was evaluated for performance using Google Chrome's DevTools and Google Lighthouse. See the results here: ![Interactive Gallery]()
 
 By conducting these comprehensive testing steps, any issues or inconsistencies were identified and addressed, resulting in a high-quality, fully functional website ready for deployment.
 
@@ -234,13 +237,13 @@ By completing this thorough validator testing I was able to identify and resolve
 
 During the development process of my personal resume website, several bugs were identified and resolved to ensure optimal performance and user experience:
 
-- Initially, the main content section of the website was pushing the header and navbar upwards, causing them to become partially or entirely hidden from view. Upon investigation, it was discovered that the issue stemmed from the positioning properties applied to the header element. [Header bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-before.webp) - [Header bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-after.webp)
+- Initially, the main content section of the website was pushing the header and navbar upwards, causing them to become partially or entirely hidden from view. Upon investigation, it was discovered that the issue stemmed from the positioning properties applied to the header element. To fix this issue, I adjusted the positioning properties of the header element to ensure that it remains fixed at the top of the viewport while allowing the main content to scroll underneath it. [Header bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-before.webp) - [Header bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-bug-after.webp)
 
-- An issue arose in the skills section where the five skill boxes were only aligning vertically, disrupting the intended layout and presentation of the content. After a thorough investigation, it was determined that the problem stemmed from the box-sizing properties applied to the skill boxes. [Skill Box bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/skill-box-before.webp) - [Skill Box bug after-image](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/skill-box-after.webp)
+- An issue arose in the skills section where the five skill boxes were only aligning vertically, disrupting the intended layout and presentation of the content. After a thorough investigation, it was determined that the problem stemmed from the box-sizing properties applied to the skill boxes. To resolve this issue, I modified the box-sizing properties to ensure that the skill boxes align horizontally, maintaining the desired layout and presentation. [Skill Box bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/skill-box-before.webp) - [Skill Box bug after-image](https://github.com/DamianGillessen1989/personal-portfolio-dg/blob/main/docs/skill-box-after.webp)
 
-- Upon inspection of the header section, an issue was identified where the logo image was not displaying correctly. The logo image appeared to be cropped, with half of it extending beyond the right-hand side of the screen, disrupting the header's visual coherence and brand representation. After investigating the root cause of the problem, it was discovered that the issue stemmed from improper image sizing and alignment properties. To rectify this issue, adjustments were made to the logo image's dimensions and positioning within the header section. [Header Logo bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-before.webp) - [Header Logo bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-after.webp)
+- Upon inspection of the header section, an issue was identified where the logo image was not displaying correctly. The logo image appeared to be cropped, with half of it extending beyond the right-hand side of the screen, disrupting the header's visual coherence and brand representation. After investigating the root cause of the problem, it was discovered that the issue stemmed from improper image sizing and alignment properties. To rectify this issue, I adjusted the dimensions and positioning of the logo image within the header section, ensuring that it displays correctly and aligns with the rest of the header content. [Header Logo bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-before.webp) - [Header Logo bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/header-logo-bug-after.webp)
 
-- During the refinement of CSS styling for the website's layout, an unexpected issue emerged with the footer section. Following a modification in the CSS code to enhance styling elements, the footer mysteriously vanished from the screen altogether. Upon thorough investigation, it was revealed that the footer's sudden disappearance was caused by inadvertently setting its position to 'fixed'. [Footer bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-before.webp) - [Footer bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-after.webp)
+- During the refinement of CSS styling for the website's layout, an unexpected issue emerged with the footer section. Following a modification in the CSS code to enhance styling elements, the footer mysteriously vanished from the screen altogether. Upon thorough investigation, it was revealed that the footer's sudden disappearance was caused by inadvertently setting its position to 'fixed'. To address this issue, I corrected the position property of the footer element, ensuring that it remains in its intended position at the bottom of the page. [Footer bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-before.webp) - [Footer bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer-bug-after.webp)
 
 - Upon inspecting the contact section of the website, a perplexing issue surfaced where the form elements were disorganized and scattered across the page, rendering the form non-functional. Despite thorough scrutiny, the root cause of this erratic behaviour remained elusive. However, a breakthrough occurred when I realized that restructuring the layout using a flexbox approach could potentially resolve the issue. Implementing this strategy, I transformed the contact section into a flex container and made adjustments to the flex-direction property. [Contact Form bug before-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-before.webp) - [Contact Form bug after-image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-form-bug-after.webp)
 
@@ -320,6 +323,7 @@ The live link can be found here - [https://damiangillessen1989.github.io/persona
 - **Grammarly** - Employed to rectify grammar errors across the project, ensuring polished content.
 - **w3 Validator** - Used to verify the HTML of the site pages and CSS styling code.
 - **ChatGPT** - For constant advice and help with the textual content of the site.
+- **Chrome DevTools & Lighthouse** - Used to check the performance rating of the site.
 
 ### Acknowledgements
 
