@@ -141,9 +141,9 @@ Overall, the site structure is designed to be user-friendly, logically organised
 - Footer housing navigation links and social media icons.
 ![Footer](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/footer.webp)
 - Hero images captivating users' attention.
-![Hero Image]https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/hero-image.webp()
+![Hero Image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/hero-image.webp)
 - Download button providing my personal CV in PDF form.
-![Download CV button]()
+![Download CV button](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/download-button.webp)
 - Contact button on the contact form which will submit users' info.
 ![Contact me button](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/contact-button.webp)
 - Interactive Gallery of previous projects in image form.
