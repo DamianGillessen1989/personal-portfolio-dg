@@ -137,12 +137,17 @@ Overall, the site structure is designed to be user-friendly, logically organised
 ### Features Present:
 
 - Responsive navbar facilitating easy navigation.
+![Responsive Navbar]()
 - Footer housing navigation links and social media icons.
+![Footer]()
 - Hero images captivating users' attention.
+![Hero Image]()
 - Download button providing my personal CV in PDF form.
-- Contact button on the contact page which will submit users' info.
+![Download CV button]()
+- Contact button on the contact form which will submit users' info.
+![Contact me button]()
 - Interactive Gallery of previous projects in image form.
-- **Favicon:** A unique favicon has been added to enhance the visual identity of the portfolio.
+![Interactive Gallery]()
 
 ### Features to Implement:
 
