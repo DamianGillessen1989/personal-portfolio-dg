@@ -644,7 +644,7 @@ body.modal-open {
     display: flex;
     justify-content: space-around;
     -webkit-text-stroke: 1px black;
-    text-stroke: 1px black;
+    text-shadow: 1px 1px 0 black;
     border-color: #39546d;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
     align-items: center;
@@ -670,7 +670,7 @@ body.modal-open {
 #error-link {
     font-weight: bold;
     -webkit-text-stroke: 1px #1e3050;
-    text-stroke: 1px #1e3050;
+    text-shadow: 1px 1px 0 #1e3050;
     font-weight: bold;
     position: relative;
     left: 22vw;
@@ -697,7 +697,7 @@ body.modal-open {
     color: #f8f8ff;
     border-color: #f8f8ff;
     -webkit-text-stroke: 1px #f8f8ff;
-    text-stroke: 1px #f8f8ff;
+    text-shadow: 1px 1px 0 #f8f8ff;
 }
 
 #confirmation-page {
