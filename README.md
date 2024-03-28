@@ -203,8 +203,6 @@ To ensure the optimal performance and functionality of the new site, a thorough 
 
 7. **Accessibility Testing:** The site was evaluated for accessibility compliance by testing with screen readers and ensuring proper use of alt text for images and other multimedia elements.
 
-8. **Performace Testing:** The site was evaluated for performance using Google Chrome's DevTools and Google Lighthouse. See the results here: ![Interactive Gallery]()
-
 By conducting these comprehensive testing steps, any issues or inconsistencies were identified and addressed, resulting in a high-quality, fully functional website ready for deployment.
 
 ### Future Testing
@@ -228,6 +226,8 @@ To ensure the validity and adherence to web standards, I conducted rigorous test
 4. Mobile-Friendly Testing: The site's mobile-friendliness was evaluated using Google Chrome's Developer Tools, and testing on multiple screen sizes, device types, and orientations, including landscape and portrait modes.
 
 5. Browser Compatibility Testing: The site was tested on multiple browsers and browser versions (e.g., Chrome, Firefox, Safari, Edge) to verify consistent rendering and functionality across different platforms.
+
+6. Performace Testing: The site was evaluated for performance using Google Chrome's DevTools and Google Lighthouse. See the results here: ![Interactive Gallery](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/lighthouse-scores.webp)
 
 By completing this thorough validator testing I was able to identify and resolve any coding errors, accessibility issues, or performance problems, resulting in (hopefully) a compliant, user-friendly, and optimally performing website.
 
@@ -329,7 +329,9 @@ The live link can be found here - [https://damiangillessen1989.github.io/persona
 
 I would like to express my gratitude to the following individuals and resources for their invaluable contributions and support throughout the development of this project:
 
-- Peers and Instructors at the Code Institute - For providing valuable feedback and guidance during the development and testing phases. Especially Thomas for his constant feedback and support.
+- My Mentor Harry Dhillon at the Code Institute - For his advice, tips and assistance in creating this awesome project, and the guidance and inspiration for this extensive README file.
+-Peers and Instructors at the Code Institute - For providing valuable feedback and guidance during the development and testing phases. Especially Thomas for his constant feedback and support.
+- The Love Running project - This project was a great guide on how to prepare the basic site structures and how to present information in a nice styled way.
 - Stack Overflow - A treasure trove of knowledge and solutions to various coding challenges encountered during development.
 - My cousin Hanno - For his continuous support educational tips and endless patience.
 - My daughter Thea - Just for being my daughter.
