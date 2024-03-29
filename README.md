@@ -331,7 +331,7 @@ I would like to express my gratitude to the following individuals and resources 
 
 - My Mentor Harry Dhillon at the Code Institute - For his advice, tips and assistance in creating this awesome project, and the guidance and inspiration for this extensive README file.
 -Peers and Instructors at the Code Institute - For providing valuable feedback and guidance during the development and testing phases. Especially Thomas for his constant feedback and support.
-- The Love Running project - This project was a great guide on how to prepare the basic site structures and how to present information in a nice styled way.
+- The Love Running project - This project was a great guide on how to prepare the basic site structures and how to present information in a nice styled way - [https://github.com/Code-Institute-Solutions/love-running-v3](https://github.com/Code-Institute-Solutions/love-running-v3).
 - The Sikhism Project by Harry Dhillon - [https://github.com/Harry-Leepz/Sikhism-Project](https://github.com/Harry-Leepz/Sikhism-Project).
 - Stack Overflow - A treasure trove of knowledge and solutions to various coding challenges encountered during development.
 - My cousin Hanno - For his continuous support educational tips and endless patience.
