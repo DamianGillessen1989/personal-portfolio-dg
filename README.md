@@ -168,7 +168,7 @@ Overall, the site structure is designed to be user-friendly, logically organised
 
 - [Google Fonts](https://fonts.google.com/) - Provides fonts for the project, specifically Roboto and Dancing Script, linked in the header.
 - [Font Awesome](https://fontawesome.com/) - Supplies social media icons used in the footer.
-- [Amiresponsive](https://ui.dev/amiresponsive) - Used for creating Responsive Mockup.
+- [Amiresponsive](https://ui.dev/amiresponsive) - Used for creating Responsive Mockup - [https://ui.dev/amiresponsive?url=https://damiangillessen1989.github.io/personal-portfolio-dg/](https://ui.dev/amiresponsive?url=https://damiangillessen1989.github.io/personal-portfolio-dg/)
 - [Iconos8](https://iconos8.es) - Used to find and select Favicons used on site.
 - [Wepik](https://wepik.com) - Used to generate AI images for site backgrounds, features and Gallery.
 
