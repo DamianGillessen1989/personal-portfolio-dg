@@ -78,14 +78,14 @@ Phase 3:
 
 Given the nature of the portfolio and the lack of text-based content, considerable emphasis was placed on structuring the pages to sustain user attention and engagement:
 
-Color Palette:
+Colour Palette:
 
 - Light Grey
 - Grey
 - Navy Blue
 - White
 
-As an avid night-mode user, I wanted to design the page from scratch with night-mode in mind. A dark background was chosen to reduce visual strain and elevate the prominence of images and light text was chosen to accompany the theme. The color scheme was meticulously crafted to deliver a visually pleasing and cohesive experience and images of a colourful and engaging nature were also included.
+As an avid night-mode user, I wanted to design the page from scratch with night-mode in mind. A dark background was chosen to reduce visual strain and elevate the prominence of images and light text was chosen to accompany the theme. The colour scheme was meticulously crafted to deliver a visually pleasing and cohesive experience and images of a colourful and engaging nature were also included.
 
 Typography:
 
@@ -161,15 +161,15 @@ Overall, the site structure is designed to be user-friendly, logically organised
 
 ### Development Tools and Frameworks:
 
-- HTML - Forms the foundational structure of the project's content.
-- CSS - Styles all web content uniformly throughout the project.
+- [HTML](https://en.wikipedia.org/wiki/HTML) - Forms the foundational structure of the project's content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) - Styles all web content uniformly throughout the project.
 
 ### Styling and Design Elements:
 
 - [Google Fonts](https://fonts.google.com/) - Provides fonts for the project, specifically Roboto and Dancing Script, linked in the header.
 - [Font Awesome](https://fontawesome.com/) - Supplies social media icons used in the footer.
 - [Amiresponsive](https://ui.dev/amiresponsive) - Used for creating Responsive Mockup - [https://ui.dev/amiresponsive?url=https://damiangillessen1989.github.io/personal-portfolio-dg/](https://ui.dev/amiresponsive?url=https://damiangillessen1989.github.io/personal-portfolio-dg/)
-- [Iconos8](https://iconos8.es) - Used to find and select Favicons used on site.
+- [Icons8](https://icons8.com/) - Used to find and select Favicons used on site.
 - [Wepik](https://wepik.com) - Used to generate AI images for site backgrounds, features and Gallery.
 
 ### Development and Testing Utilities:
@@ -187,49 +187,7 @@ Overall, the site structure is designed to be user-friendly, logically organised
 
 ## Testing
 
-To ensure the optimal performance and functionality of the new site, a thorough testing process was conducted. The following steps were taken to verify the site's integrity and user experience:
-
-1. **Cross-Browser Compatibility Testing:** The site was tested on multiple browsers including Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge to ensure consistency in appearance and functionality across different platforms.
-
-2. **Responsive Design Testing:** Various devices such as desktops, laptops, tablets, and smartphones were used to assess the responsiveness of the site. Testing was conducted to confirm that the site adapts seamlessly to different screen sizes and resolutions.
-
-3. **Navigation Testing:** The navigation menu and links were tested to ensure they lead to the correct pages and sections within the site. Additionally, the usability of the navigation menu on both desktop and mobile devices was evaluated.
-
-4. **Form Validation Testing:** If applicable, forms on the site were tested to ensure that input fields validate user input correctly and provide appropriate error messages when necessary.
-
-5. **Functionality Testing:** Interactive elements such as buttons, sliders, and dropdown menus were thoroughly tested to ensure they perform their intended actions without any errors or glitches.
-
-6. **Content Verification:** All textual content, images, and multimedia elements were reviewed to ensure accuracy, relevance, and proper formatting.
-
-7. **Accessibility Testing:** The site was evaluated for accessibility compliance by testing with screen readers and ensuring proper use of alt text for images and other multimedia elements.
-
-By conducting these comprehensive testing steps, any issues or inconsistencies were identified and addressed, resulting in a high-quality, fully functional website ready for deployment.
-
-### Future Testing
-
-When possible it is hoped that I may implement the below testing processes on my site:
-
-1. **Performance Testing:** Load times and overall performance metrics will be measured using tools like Google PageSpeed Insights and GTmetrix to identify and address any performance bottlenecks.
-
-2. **Security Testing:** Security measures such as SSL certification, secure connections, and protection against common vulnerabilities like SQL injection and cross-site scripting will be verified.
-
-### Validator Testing
-
-To ensure the validity and adherence to web standards, I conducted rigorous testing using various online validators and tools. The following steps outline the validation process:
-
-1. HTML Validation: The HTML code was validated using the W3C Markup Validation Service to check for syntax errors, missing elements, and adherence to HTML standards.
-
-2. CSS Validation: The CSS code was validated using the W3C CSS Validation Service to identify any errors, warnings, or deprecated syntax that may affect styling and layout consistency.
-
-3. Performance Analysis: Performance metrics were analyzed using tools like Google PageSpeed Insights and Lighthouse to assess page load times, rendering speed, and overall performance optimization.
-
-4. Mobile-Friendly Testing: The site's mobile-friendliness was evaluated using Google Chrome's Developer Tools, and testing on multiple screen sizes, device types, and orientations, including landscape and portrait modes.
-
-5. Browser Compatibility Testing: The site was tested on multiple browsers and browser versions (e.g., Chrome, Firefox, Safari, Edge) to verify consistent rendering and functionality across different platforms.
-
-6. Performace Testing: The site was evaluated for performance using Google Chrome's DevTools and Google Lighthouse. See the results here: ![Interactive Gallery](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/lighthouse-scores.webp)
-
-By completing this thorough validator testing I was able to identify and resolve any coding errors, accessibility issues, or performance problems, resulting in (hopefully) a compliant, user-friendly, and optimally performing website.
+To ensure the optimal performance and functionality of the new site, a thorough testing process was conducted. Please see the [TESTING.md](https://damiangillessen1989.github.io/personal-portfolio-dg/TESTING.md) file for the list of steps taken to ensure the best performance of this site.
 
 ## Resolved and Unsolved Bugs
 
@@ -299,31 +257,30 @@ The live link can be found here - [https://damiangillessen1989.github.io/persona
 
 ### Development Tools and Frameworks
 
-- **HTML** - Utilized as the foundational structure of the project's content.
-- **CSS** - Employed to style all web content uniformly throughout the project.
+- [**HTML**](https://en.wikipedia.org/wiki/HTML) - Utilized as the foundational structure of the project's content.
+- [**CSS**](https://en.wikipedia.org/wiki/CSS) - Employed to style all web content uniformly throughout the project.
 
 ### Styling and Design Elements
 
-- **Google Fonts** - Provides fonts for the project, specifically Roboto and Dancing Script, linked in the header.
-- **Font Awesome** - Supplies social media icons used in the footer.
-- **Amiresponsive** - Used for creating Responsive Mockup.
-- **Iconos8** - The Favicon used for this site was retrieved from iconos8.es:
+- [**Google Fonts**](https://fonts.google.com/) - Provides fonts for the project, specifically Roboto and Dancing Script, linked in the header.
+- [**Font Awesome**](https://fontawesome.com/) - Supplies social media icons used in the footer.
+- [**Amiresponsive**](https://ui.dev/amiresponsive) - Used for creating Responsive Mockup.
+- [**Icons8**](https://icons8.com/) - The Favicon used for this site was retrieved from iconos8.es:
 <a target="_blank" href="https://icons8.com/icon/kvqTlMRogUYm/cuenta-de-prueba">Cuenta de Prueba</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>
-- **Wepik** - Utilized to generate AI images for site backgrounds, features, and the Gallery section.
+- [**Wepik**](https://wepik.com/) - Utilized to generate AI images for site backgrounds, features, and the Gallery section.
 
 ### Development and Testing Utilities
 
-- **Github** - Repository for storing project code after commits and pushes.
-- **Git** - Manages version control, with Gitpod terminal facilitating commits and pushes.
-- **Visual Studio Code** - Served as the primary development environment.
-- **Balsamiq** - Used for creating wireframes to plan project layout and design.
+- [**Github**](https://github.com/) - Repository for storing project code after commits and pushes.
+- [**Git**](https://git-scm.com/) - Manages version control, with Gitpod terminal facilitating commits and pushes.
+- [**Visual Studio Code**](https://code.visualstudio.com/) - Served as the primary development environment.
+- [**Balsamiq**](https://balsamiq.cloud/) - Used for creating wireframes to plan project layout and design.
 
 ### Optimization and Quality Assurance
 
-- **Grammarly** - Employed to rectify grammar errors across the project, ensuring polished content.
-- **w3 Validator** - Used to verify the HTML of the site pages and CSS styling code.
-- **ChatGPT** - For constant advice and help with the textual content of the site.
-- **Chrome DevTools & Lighthouse** - Used to check the performance rating of the site.
+- [**Grammarly**](https://app.grammarly.com/) - Employed to rectify grammar errors across the project, ensuring polished content.
+- [**w3 Validator**](https://validator.w3.org/#validate_by_input) - Used to verify the HTML of the site pages and CSS styling code.
+- [**Chrome DevTools & Lighthouse**](https://developer.chrome.com/docs/lighthouse/overview) - Used to check the performance rating of the site.
 
 ### Acknowledgements
 
