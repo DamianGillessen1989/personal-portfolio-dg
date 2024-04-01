@@ -44,11 +44,12 @@ header {
     align-items: center;
     max-height: 8.5vh;
     flex-direction: row-reverse;
+    min-height: 5rem;
 }
 
 header img {
-    height: 7vh; /* Ensure the image fills the height of the header */
-    max-width: 7vh; /* Ensure the image is responsive */
+    height: 4rem; /* Ensure the image fills the height of the header */
+    max-width: 4rem; /* Ensure the image is responsive */
     margin-top: 2vh;
     border-radius: 50%;
     border: 2px solid #1e3050;
@@ -325,6 +326,9 @@ body.modal-open {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 5rem;
+    min-height: 90%;
+    justify-content: flex-start;
 }
 
 #contact-form>h2 {
@@ -335,7 +339,7 @@ body.modal-open {
 .text-input {
     background: transparent;
     color: #1e3050;
-    height: 3%;
+    height: 2rem;
     margin: 5px 0 20px 0;
     border: 2px solid #1e3050;
     border-radius: 2px;
@@ -796,7 +800,7 @@ footer {
     /* Header */
     header {
         flex-direction: row;
-        min-height: 74px;
+        min-height: 5rem;
     }
     
     nav {
@@ -891,7 +895,6 @@ footer {
     /* Contact Form */
     #contact-me {
         background-position: center;
-        position: relative;
     }
 
     #contact-form {
@@ -928,7 +931,7 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     main {
-        margin-top: 4vw;
+        margin-top: 5rem;
     }
 }
 /* Large devices (laptops and desktops, 992px and up) */
@@ -943,8 +946,8 @@ footer {
     }
 
     header img {
-        height: 8vh;
-        max-width: 8vh;
+        height: 4rem;
+        max-width: 4rem;
     }
 
     #hero {
@@ -982,7 +985,6 @@ footer {
     /* Contact Form */
     #contact-me {
         background-position: center;
-        position: relative;
     }
 
     #contact-form {
