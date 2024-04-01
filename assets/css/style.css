@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -166,7 +166,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url('../images/dgpersonalportfolimageb.webp') no-repeat top center / cover;
+    background: url("../images/dgpersonalportfolimageb.webp") no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 4vh;
@@ -192,7 +192,7 @@ main {
 }
 
 #focus {
-    background: url(../images/dgpersonalportfoliocityscape.webp) no-repeat center/cover;
+    background: url("../images/dgpersonalportfoliocityscape.webp") no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
@@ -627,7 +627,7 @@ body.modal-open {
 }
 
 #error-background {
-    background-image: url(../images/page-not-found.webp);
+    background-image: url("../images/page-not-found.webp");
     background-size: cover;
     background-position: 60%;
     padding: 20px 10% 0 10%;
@@ -701,7 +701,7 @@ body.modal-open {
 }
 
 #confirmation-page {
-    background-image: url(../images/personalportfoliothanks.webp);
+    background-image: url("../images/personalportfoliothanks.webp");
     background-size: cover;
     background-position: 43%;
     padding: 20px 10% 0 10%;
