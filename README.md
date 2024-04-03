@@ -178,12 +178,15 @@ Overall, the site structure is designed to be user-friendly, logically organised
 - [Git](https://git-scm.com/) - Manages version control, with Gitpod terminal facilitating commits and pushes.
 - [Visual Studio Code](https://code.visualstudio.com/) - Served as the primary development environment.
 - [Balsamiq](https://balsamiq.cloud/) - Used for creating wireframes to plan project layout and design.
+- [Responsive Viewer](https://responsiveviewer.org/) - Used for testing across devices and browsers.
+- [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) - Used to test accessibility of the site.
 
 ### Optimization and Quality Assurance:
 
 - [Grammarly](https://app.grammarly.com/) - Employed to rectify grammar errors across the project, ensuring polished content.
 - [w3 Validator](https://validator.w3.org/) - Used to verify the HTML of the site pages and CSS styling code.
-- Google Chrome DevTools & Lighthosue - Used to check the performance of the site.
+- [Google Chrome DevTools & Lighthosue](https://developer.chrome.com/docs/lighthouse/overview) - Used to check the performance of the site.
+- [Google PageSpeed](https://pagespeed.web.dev/) - Used to analyse and improve the performance of the site.
 
 ## Testing
 
@@ -207,7 +210,7 @@ During the development process of my personal resume website, several bugs were 
 
 ### Unresolved Bugs
 
-- An anomaly surfaced during testing when the contact form exhibited usability issues specifically in landscape mode on extra-large (XL) screens. In this configuration, the form elements appeared distorted and rendered unusable, presenting a significant impediment to user interaction. 
+- An anomaly surfaced during testing when the gallery exhibited usability issues specifically in landscape mode mobile or small-screen devices. In this configuration, the gallery modal elements appeared off-screen and rendered unusable, presenting a significant impediment to user interaction. [Gallery unresolved bug image](https://raw.githubusercontent.com/DamianGillessen1989/personal-portfolio-dg/main/docs/unresolved-modal-bug.webp)
 
 ## Deployment
 
@@ -275,12 +278,15 @@ The live link can be found here - [https://damiangillessen1989.github.io/persona
 - [**Git**](https://git-scm.com/) - Manages version control, with Gitpod terminal facilitating commits and pushes.
 - [**Visual Studio Code**](https://code.visualstudio.com/) - Served as the primary development environment.
 - [**Balsamiq**](https://balsamiq.cloud/) - Used for creating wireframes to plan project layout and design.
+- [Responsive Viewer](https://responsiveviewer.org/) - Used for testing across devices and browsers.
+- [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) - Used to test accessibility of the site.
 
 ### Optimization and Quality Assurance
 
 - [**Grammarly**](https://app.grammarly.com/) - Employed to rectify grammar errors across the project, ensuring polished content.
 - [**w3 Validator**](https://validator.w3.org/#validate_by_input) - Used to verify the HTML of the site pages and CSS styling code.
 - [**Chrome DevTools & Lighthouse**](https://developer.chrome.com/docs/lighthouse/overview) - Used to check the performance rating of the site.
+- [Google PageSpeed](https://pagespeed.web.dev/) - Used to analyse and improve the performance of the site.
 
 ### Acknowledgements
 
